@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1726"/>
+      <stop offset="100%" stop-color="#4d2fb6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E45E2"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="20%" cy="30%">
+      <stop offset="0%" stop-color="#6E45E2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="80%">
+      <stop offset="0%" stop-color="#4FC3F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Mark cercle -->
+  <circle cx="120" cy="120" r="32" fill="url(#accent)"/>
+  <circle cx="120" cy="120" r="24" fill="#1a1726"/>
+
+  <text x="180" y="135"
+        font-family="Space Grotesk, system-ui, sans-serif"
+        font-size="32" font-weight="600"
+        fill="#f7f4ee" letter-spacing="-0.5">Arthur Cotier</text>
+
+  <!-- Titre principal -->
+  <text x="120" y="320"
+        font-family="Space Grotesk, system-ui, sans-serif"
+        font-size="76" font-weight="600"
+        fill="#f7f4ee" letter-spacing="-3">
+    <tspan x="120" dy="0">Des sites pensés</tspan>
+    <tspan x="120" dy="90">comme en </tspan>
+    <tspan fill="url(#accent)">2030.</tspan>
+  </text>
+
+  <!-- Sous-titre -->
+  <text x="120" y="540"
+        font-family="Inter, system-ui, sans-serif"
+        font-size="26" font-weight="400"
+        fill="#b9a4f5" letter-spacing="0">
+    Spécialiste IA + Web · Sites pros pour indépendants & TPE
+  </text>
+
+  <!-- Decorative dots -->
+  <circle cx="1050" cy="140" r="4" fill="#4FC3F7" opacity="0.6"/>
+  <circle cx="1100" cy="200" r="3" fill="#6E45E2" opacity="0.7"/>
+  <circle cx="1080" cy="260" r="5" fill="#4FC3F7" opacity="0.5"/>
+  <circle cx="1140" cy="320" r="3" fill="#b9a4f5" opacity="0.6"/>
+  <circle cx="980" cy="380" r="4" fill="#4FC3F7" opacity="0.4"/>
+  <circle cx="1100" cy="440" r="3" fill="#6E45E2" opacity="0.5"/>
+</svg>
